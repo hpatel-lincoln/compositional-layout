@@ -13,7 +13,7 @@
         <!--Snapping-->
         <scene sceneID="jFg-B9-f1i">
             <objects>
-                <viewController id="muI-h0-t97" sceneMemberID="viewController">
+                <viewController id="muI-h0-t97" customClass="SnappingLayoutViewController" customModule="CompositionalLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Oa-4b-L3j">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,6 +50,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Snapping" image="rectangle.split.2x1.fill" catalog="system" selectedImage="rectangle.split.2x1.fill" id="t8j-08-l1s"/>
+                    <connections>
+                        <outlet property="collectionView" destination="8IH-D5-QOz" id="lpK-eS-8qA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dMU-hz-Ah3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

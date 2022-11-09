@@ -13,6 +13,8 @@
 		396B20BE291C3D68000F74D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396B20BD291C3D68000F74D2 /* Assets.xcassets */; };
 		396B20C1291C3D68000F74D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396B20BF291C3D68000F74D2 /* LaunchScreen.storyboard */; };
 		396B20C9291C4247000F74D2 /* CompositionalLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396B20C8291C4247000F74D2 /* CompositionalLayoutViewController.swift */; };
+		396B20CB291C43D7000F74D2 /* SnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396B20CA291C43D7000F74D2 /* SnappingLayout.swift */; };
+		396B20CD291C4590000F74D2 /* SnappingLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396B20CC291C4590000F74D2 /* SnappingLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		396B20C0291C3D68000F74D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		396B20C2291C3D68000F74D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		396B20C8291C4247000F74D2 /* CompositionalLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutViewController.swift; sourceTree = "<group>"; };
+		396B20CA291C43D7000F74D2 /* SnappingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingLayout.swift; sourceTree = "<group>"; };
+		396B20CC291C4590000F74D2 /* SnappingLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				396B20B4291C3D67000F74D2 /* AppDelegate.swift */,
 				396B20B6291C3D67000F74D2 /* SceneDelegate.swift */,
 				396B20C8291C4247000F74D2 /* CompositionalLayoutViewController.swift */,
+				396B20CC291C4590000F74D2 /* SnappingLayoutViewController.swift */,
+				396B20CA291C43D7000F74D2 /* SnappingLayout.swift */,
 				396B20BA291C3D67000F74D2 /* Main.storyboard */,
 				396B20BD291C3D68000F74D2 /* Assets.xcassets */,
 				396B20BF291C3D68000F74D2 /* LaunchScreen.storyboard */,
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				396B20C9291C4247000F74D2 /* CompositionalLayoutViewController.swift in Sources */,
+				396B20CB291C43D7000F74D2 /* SnappingLayout.swift in Sources */,
 				396B20B5291C3D67000F74D2 /* AppDelegate.swift in Sources */,
 				396B20B7291C3D67000F74D2 /* SceneDelegate.swift in Sources */,
+				396B20CD291C4590000F74D2 /* SnappingLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
