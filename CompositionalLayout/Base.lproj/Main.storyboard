@@ -58,7 +58,7 @@
         <!--Compositional-->
         <scene sceneID="OaU-H3-Rcf">
             <objects>
-                <viewController id="8aZ-Dn-lYL" sceneMemberID="viewController">
+                <viewController id="8aZ-Dn-lYL" customClass="CompositionalLayoutViewController" customModule="CompositionalLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nve-Au-LT2">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,6 +95,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Compositional" image="rectangle.split.2x1.fill" catalog="system" selectedImage="rectangle.split.2x1.fill" id="scB-lI-zrG"/>
+                    <connections>
+                        <outlet property="collectionView" destination="yTy-cu-Ti6" id="SfK-G4-Vyi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sc3-OG-d7u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
